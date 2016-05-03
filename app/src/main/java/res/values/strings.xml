@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tracee</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="title_activity_diary">DiaryActivity</string>
+    <string name="title_activity_diary_detail">DiaryDetailActivity</string>
+    <string name="title_activity_time_line">TimeLineActivity</string>
+    <string name="title_activity_add_diary">添加足迹</string>
+    <string name="add_diary_done">完成</string>
+    <string name="title_activity_setting">"设置 "</string>
+    <string name="action_share">分享</string>
+    <string name="diary_edit_menu">编辑</string>
+    <string name="diary_delete_menu">删除</string>
+    <string name="confirm_delete">确定永久删除吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="titleStart">Moments at </string>
+    <string name="default_diary_title">No title</string>
+    <string name="dot">●</string>
+    <string name="default_diary_content">No content</string>
+    <string name="diary_title_hint">添加一个标题吧~</string>
+    <string name="diary_content_hint">写下旅途中的趣事吧~</string>
+    <string name="remand_add_image">相册空空如也 \n 点击右下按钮添加照片吧!</string>
+    <string name="title_activity_edit_diary">编辑</string>
+    <string name="edit_diary_title">编辑</string>
+    <string name="location_deny_warn">地图位置不可用，请确认给予应用权限！</string>
+    <string name="location_null_warn">获取位置失败，请确认GPS服务可用！</string>
+    <string name="location_hint">no location</string>
+    <string name="action_start">开始记录路线</string>
+    <string name="remaind_add_title">你的旅行时间线会显示在这里</string>
+    <string name="remaind_add_content">为了获取更好的体验，建议你打开地理位置信息服务，开始添加你的足迹吧！</string>
+    <string name="add_now">立即添加</string>
+    <string name="about_athour">Tracee  </string>
+    <string name="about_tracee">Made By shineMicroxy With Love</string>
+    <string name="about_content">  首先感谢下载，作为一名Android新手开发者，这是我第一个App，你的下载就是对我最好的鼓励。App为业余完成，很多不完善之处还请多多包涵，如果能提出改进建议就更好啦！另外项目源码已放在GitHub，请多多指教。</string>
+    <string name="about_contact">GitHub: https://github.com/shineM \n\nTwitter: https://twitter.com/shineMicroxy \n \n邮箱: zhongxinyuann@gmail.com \n \n微博: http://weibo.com/3212528202/</string>
+    <string name="share_content">想要随身记录旅途发生的一切吗，这里有一款不错的App哟，Google Play搜索Tracee就可以下载啦！</string>
+</resources>

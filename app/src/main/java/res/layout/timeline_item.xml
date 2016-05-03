@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.zxy.tracee.widget.TimelineView
+                android:id="@+id/timeline_item_left"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                app:isFisrtItem="false"
+                app:isLastItem="false"
+                app:textMarginTop="40dp"
+                app:textSize="15dp"
+                app:topLine="80dp" />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="Jun 07"
+                android:textColor="#a1887f"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="0dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/timeline_item_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/text_view_background"></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/img_content_background"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timeline_item_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#fff"
+                        android:text="Title" />
+
+                    <TextView
+                        android:id="@+id/timeline_item_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:maxLines="1"
+                        android:text="Contentaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        android:textColor="#dedede"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="4dp"
+                        android:textIsSelectable="true"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

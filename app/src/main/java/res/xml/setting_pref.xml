@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBoxPreference
+        android:key="pref_night_mode"
+        android:title="Night Mode"
+        android:summary="reduce the light when on"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="pref_attendee_at_venue_2015"
+        android:title="Auto sycn data"
+        android:summary="upload your data to the cloud"
+        android:defaultValue="true" />
+
+
+
+
+
+</PreferenceScreen>
+

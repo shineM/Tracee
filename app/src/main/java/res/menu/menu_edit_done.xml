@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zxy.tracee.ui.EditDiaryActivity">
+
+    <item
+        android:id="@+id/action_done"
+        android:title="@string/add_diary_done"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:orderInCategory="90"
+        app:showAsAction="ifRoom" />
+</menu>

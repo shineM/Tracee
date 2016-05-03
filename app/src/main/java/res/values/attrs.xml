@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimelineView">
+        <attr name="topLine" format="dimension"/>
+        <attr name="textMarginTop" format="dimension"/>
+        <attr name="bottomLine" format="dimension"/>
+        <attr name="devidePic" format="color|reference"/>
+        <attr name="lineSize" format="dimension"/>
+        <attr name="picSize" format="dimension"/>
+        <attr name="isFisrtItem" format="boolean"/>
+        <attr name="isLastItem" format="boolean"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

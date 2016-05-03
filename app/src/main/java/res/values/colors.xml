@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66bb6a</color>
+    <color name="colorPrimaryDark">#236426</color>
+    <color name="colorAccent">#59a84d</color>
+    <color name="colorDevideCircle">#FF9879</color>
+    <color name="primary_text_material_light">#263238</color>
+    <color name="foreground_material_light">#000000</color>
+    <color name="url_blue">#3352af</color>
+    <color name="windowBackGround">#50000000</color>
+</resources>
